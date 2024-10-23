@@ -1,0 +1,29 @@
+.profile_img_box {
+  width: 320px;
+  margin: 0 auto;
+  img {
+    width: 100%;
+    border-radius: 2px;
+  }
+}
+.profile_text_area {
+  width: 320px;
+  margin: 40px auto;
+  font-size: 15px;
+  .mydata {
+    width: 100%;
+    margin-bottom: 10px;
+    overflow-wrap: anywhere;
+    transition: all 0.3s;
+
+    &:hover {
+      color: grey;
+    }
+  }
+  .bottom_text {
+    text-align: center;
+    .mini_bar {
+      margin: 30px 0;
+    }
+  }
+}

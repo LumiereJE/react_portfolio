@@ -1,0 +1,30 @@
+.header__logo {
+  text-align: center;
+  line-height: 80px;
+  a {
+    span {
+    }
+  }
+}
+.header__nav {
+  position: absolute;
+  bottom: 0px;
+  right: 30px;
+  ul {
+    display: flex;
+    gap: 30px;
+    li {
+      transition: all 0.3s;
+      &:hover {
+        color: rgb(104, 104, 104);
+      }
+    }
+    .active {
+      color: gray;
+    }
+  }
+  @media (max-width: 900px) {
+    bottom: 5px;
+    right: calc(50% - (310px / 2));
+  }
+}
