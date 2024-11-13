@@ -19,7 +19,7 @@ const Main = (props) => {
       <div className="main_box">
         <Aside />
         <main id="main" role="main">
-          <p>main자리 - contents</p>
+          {props.children}
         </main>
       </div>
       <Footer />

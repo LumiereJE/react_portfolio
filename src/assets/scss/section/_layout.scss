@@ -1,7 +1,7 @@
 #header {
   width: 100%;
   height: 80px;
-  background-color: pink;
+  // background-color: pink;
   border-bottom: 3px solid var(--black);
   position: relative;
   @media (max-width: 900px) {
@@ -16,8 +16,8 @@
 }
 #aside {
   width: 430px;
-  height: calc(100vh - 80px);
-  background-color: rgb(207, 228, 164);
+  // height: calc(100vh - 80px);
+  // background-color: rgb(207, 228, 164);
   border-right: 1px solid var(--black100);
 
   padding: 50px 40px;
@@ -31,8 +31,9 @@
 }
 #main {
   width: calc(100% - 430px);
-  height: calc(100vh - 80px);
-  background-color: rgb(236, 222, 160);
+  // height: calc(100vh - 80px);
+  font-family: var(--mainfont-noto);
+  background-color: var(--gray100);
 
   padding: 50px 40px;
   @media (max-width: 1200px) {
