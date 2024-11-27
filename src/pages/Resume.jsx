@@ -10,6 +10,7 @@ const Resume = () => {
   return (
     <Main title="Jieun's Resume" discription="Resume">
       <section id="resume">
+        <h2>Resume</h2>
         <ResumeLayer
           title="Education"
           data={education}

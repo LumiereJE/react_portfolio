@@ -1,0 +1,119 @@
+// portfolio
+#portfolio {
+  padding: 0 50px;
+
+  @media (max-width: 1023px) {
+    padding: 0;
+  }
+
+  @media (max-width: 767px) {
+  }
+
+  h2 {
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 50px;
+    @media (max-width: 1023px) {
+      font-size: 36px;
+      margin-bottom: 40px;
+    }
+  }
+
+  .slide_box {
+    min-width: 300px;
+    display: flex;
+    gap: 40px;
+    margin-bottom: 130px;
+
+    @media (max-width: 1400px) {
+      display: block;
+      margin-bottom: 100px;
+    }
+    @media (max-width: 1023px) {
+      display: flex;
+      margin-bottom: 80px;
+    }
+    @media (max-width: 767px) {
+      display: block;
+    }
+
+    .mySwiper {
+      width: 55%;
+      height: 100%;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+      @media (max-width: 1400px) {
+        width: 100%;
+        margin-bottom: 40px;
+      }
+      @media (max-width: 1023px) {
+        width: 55%;
+      }
+      @media (max-width: 767px) {
+        width: 100%;
+        margin-bottom: 40px;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        background-color: var(--black500);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .swiper-pagination {
+        padding: 10px;
+      }
+      .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+        background-color: var(--black400);
+        opacity: 0.5;
+      }
+      .swiper-pagination-bullet-active {
+        opacity: 1;
+      }
+    }
+    .info_box {
+      width: 45%;
+      @media (max-width: 1400px) {
+        width: 100%;
+      }
+      @media (max-width: 1023px) {
+        width: 45%;
+      }
+      @media (max-width: 767px) {
+        width: 100%;
+      }
+
+      .title_box {
+        display: flex;
+        justify-content: space-between;
+
+        margin-bottom: 16px;
+        p {
+          font-size: 18px;
+          font-weight: 900;
+        }
+        .more_box {
+          a {
+            color: var(--black500);
+          }
+          span {
+            margin: 0 10px;
+          }
+        }
+      }
+      p {
+        margin-bottom: 6px;
+      }
+    }
+  }
+}

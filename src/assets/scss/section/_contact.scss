@@ -5,6 +5,10 @@ section {
     font-weight: 900;
     font-size: 40px;
     margin-bottom: 50px;
+    @media (max-width: 1023px) {
+      font-size: 36px;
+      margin-bottom: 40px;
+    }
   }
 
   form {
@@ -12,6 +16,10 @@ section {
     width: 80%;
     margin: 0 auto;
     font-weight: 900;
+
+    @media (max-width: 767px) {
+      width: 100%;
+    }
     .input_box {
       margin-bottom: 8px;
       label {
