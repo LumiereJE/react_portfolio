@@ -1,12 +1,11 @@
 export const slideImg = [
   {
     images: [
-      "granhand_1",
-      "granhand_2",
-      "granhand_3",
-      "granhand_4",
-      "granhand_5",
-      "granhand_6",
+      "react_port_1",
+      "react_port_2",
+      "react_port_3",
+      "react_port_4",
+      "react_port_5",
     ],
   },
   {
@@ -32,7 +31,7 @@ export const slideImg = [
 
 export const pf_site = [
   {
-    site: "깃으로 등록해야됨 - 리액트 포폴",
+    site: "https://www.notion.so/Portfolio_react-9ab36508295342b284fdad9628c94ba1?pvs=4",
     git: "https://github.com/LumiereJE/react_portfolio",
   },
   {

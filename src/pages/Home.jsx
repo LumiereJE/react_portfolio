@@ -1,5 +1,6 @@
 import React from "react";
 import Main from "../components/section/Main";
+import MainImg from "../components/contents/home_contents/MainImg";
 
 const Home = () => {
   return (
@@ -7,7 +8,9 @@ const Home = () => {
       title="Jieun's Portfolio"
       description="react로 만들어진 페이지 입니다."
     >
-      <p>홈 화면 구성요소 배치 중</p>
+      <section id="home">
+        <MainImg />
+      </section>
     </Main>
   );
 };

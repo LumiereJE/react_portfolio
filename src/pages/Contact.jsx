@@ -27,10 +27,10 @@ const Contact = () => {
 
   return (
     <Main title="Jieun's Contact" description="react로 만들어진 페이지 입니다.">
-      <section>
+      <section id="contact">
         <h2>Contact</h2>
 
-        <form ref={form} onSubmit={sendEmail}>
+        <form ref={form} onSubmit={sendEmail} className="contact_form">
           <div className="input_box">
             <label for="name">user_name : </label>
             <input

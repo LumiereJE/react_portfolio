@@ -8,7 +8,10 @@
   left: 0;
   background: #fff;
   z-index: 999;
-  @media (max-width: 767px) {
+
+  font-family: var(--mainfont-sogang);
+
+  @media (max-width: 900px) {
     height: 100px;
   }
 }
@@ -21,7 +24,6 @@
 #aside {
   width: 35%;
   max-width: 430px;
-  // height: calc(100vh - 80px);
   border-right: 1px solid var(--black100);
 
   padding: 50px 40px;
@@ -30,7 +32,6 @@
   @media (max-width: 1023px) {
     width: 100%;
     max-width: none;
-    // height: auto;
     border-right: none;
     border-bottom: 1px solid rgb(175, 175, 175);
   }
@@ -41,17 +42,19 @@
 #main {
   min-width: calc(100% - 430px);
   width: 65%;
-  // height: calc(100vh - 80px);
   font-family: var(--mainfont-noto);
   background-color: var(--gray100);
 
-  padding: 50px 40px;
+  padding: 4% 8%;
   margin-top: 80px; // header 고정 높이값
 
   @media (max-width: 1023px) {
     width: 100%;
     height: auto;
     margin-top: 0;
+  }
+  @media (max-width: 767px) {
+    padding: 6% 5%;
   }
 }
 

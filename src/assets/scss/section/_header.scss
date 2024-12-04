@@ -1,8 +1,13 @@
 .header__logo {
   text-align: center;
   line-height: 80px;
-  a {
-    span {
+  padding: 10px;
+  svg {
+    .logo_svg .logo_line {
+      fill: var(--black);
+      stroke: var(--black);
+      stroke-width: 0.75;
+      stroke-miterlimit: 10;
     }
   }
 }

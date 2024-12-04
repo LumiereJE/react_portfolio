@@ -1,0 +1,27 @@
+#about {
+  .about_box {
+    h2 {
+      font-weight: 900;
+      font-size: 40px;
+      margin-bottom: 50px;
+    }
+    img {
+      width: 66%;
+      display: block;
+      margin: 4% auto 8%;
+
+      @media (max-width: 1023px) {
+        width: 80%;
+      }
+      @media (max-width: 767px) {
+        width: 100%;
+      }
+    }
+    .detail_box {
+      p {
+        margin-bottom: 4%;
+        line-height: 30px;
+      }
+    }
+  }
+}

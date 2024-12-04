@@ -1,7 +1,5 @@
 // portfolio
 #portfolio {
-  padding: 0 50px;
-
   @media (max-width: 1023px) {
     padding: 0;
   }
@@ -105,6 +103,10 @@
         .more_box {
           a {
             color: var(--black500);
+            transition: all 0.3s;
+            &:hover {
+              color: var(--black);
+            }
           }
           span {
             margin: 0 10px;

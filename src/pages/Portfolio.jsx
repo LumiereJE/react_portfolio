@@ -2,6 +2,7 @@ import React from "react";
 import Main from "../components/section/Main";
 import SnipSlide from "../components/contents/portfolio_contents/SnipSlide";
 import PortInfo from "../components/contents/portfolio_contents/PortInfo";
+import ScrollTopBtn from "../utils/ScrollTopBtn";
 
 import { slideImg, pf_site, portfolioInfo } from "../data/portfolio";
 
@@ -24,6 +25,7 @@ const Portfolio = () => {
           </div>
         ))}
       </section>
+      <ScrollTopBtn />
     </Main>
   );
 };

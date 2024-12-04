@@ -1,9 +1,11 @@
 :root {
   --mainfont-ridi: "RIDIBatang";
   --mainfont-noto: "Noto Sans", sans-serif;
+  --mainfont-sogang: "SOGANGUNIVERSITYTTF";
 
   // 폰트 셋팅
-  font-family: var(--mainfont-ridi), var(--mainfont-noto);
+  font-family: var(--mainfont-ridi), var(--mainfont-noto),
+    var(--mainfont-sogang);
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;

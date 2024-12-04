@@ -13,6 +13,7 @@ export const experience = [
   {
     job: "패션 디자이너 근무 - 사원",
     date: "2018. 09 ~ 2020. 12",
+    works: "생산관리, 디자인업무, 결제 보조, QC",
   },
 ];
 

@@ -1,6 +1,5 @@
 //Contact page
-
-section {
+#contact {
   h2 {
     font-weight: 900;
     font-size: 40px;
@@ -11,9 +10,9 @@ section {
     }
   }
 
-  form {
+  .contact_form {
     display: block;
-    width: 80%;
+    // width: 80%;
     margin: 0 auto;
     font-weight: 900;
 
