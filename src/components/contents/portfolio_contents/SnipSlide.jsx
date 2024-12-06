@@ -24,7 +24,7 @@ const SnipSlide = ({ slide }) => {
         {slide.images.map((img, idx) => (
           <SwiperSlide key={idx}>
             <img
-              src={`/assets/img/${img}.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/img/${img}.jpg`}
               alt={`슬라이드 이미지 ${idx + 1}`}
             />
           </SwiperSlide>
